@@ -1,0 +1,21 @@
+{
+  "name": "serverless-jsdom-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "paper-jsdom-canvas": "^0.12.8",
+    "xmlserializer": "^0.6.1"
+  },
+  "devDependencies": {
+    "serverless": "^1.73.1",
+    "serverless-layers": "^2.2.4"
+  },
+  "scripts": {
+    "exec": "sls invoke local -f jsdom-test",
+    "deploy": "sls deploy -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
